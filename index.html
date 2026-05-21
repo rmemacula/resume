@@ -1,109 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Macula-Resume</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roen Michael E. Macula - Resume</title>
+  <style>
+    :root{--bg:#f4f6f8;--card:#fff;--text:#1f2937;--muted:#6b7280;--accent:#0f766e;--line:#e5e7eb}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+    .page{max-width:900px;margin:24px auto;padding:16px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 24px rgba(0,0,0,.06);overflow:hidden}
+    header{padding:24px;border-bottom:1px solid var(--line);background:linear-gradient(135deg,#f8fffe,#eefaf8)}
+    h1{margin:0;font-size:clamp(1.4rem,4vw,2.2rem);line-height:1.15}
+    .subtitle{margin-top:6px;color:var(--accent);font-weight:700}
+    .contact{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px;color:var(--muted);font-size:.95rem}
+    .contact span{background:#fff;border:1px solid var(--line);padding:6px 10px;border-radius:999px}
+    main{padding:24px}
+    section{margin-bottom:22px}
+    h2{margin:0 0 12px;font-size:1.05rem;text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}
+    .item{padding:14px 0;border-top:1px solid var(--line)}
+    .item:first-of-type{border-top:none;padding-top:0}
+    .row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+    .role{font-weight:700}
+    .company,.date{color:var(--muted)}
+    ul{margin:10px 0 0;padding-left:18px}
+    li{margin:6px 0}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    .box{border:1px solid var(--line);border-radius:12px;padding:14px;background:#fafafa}
+    .label{font-weight:700;margin-bottom:6px}
+    @media (max-width:640px){
+      .page{margin:0;padding:0}
+      .card{border-radius:0;min-height:100vh}
+      header,main{padding:18px}
+      .grid{grid-template-columns:1fr}
+      .contact{gap:8px}
+      .contact span{display:block;width:100%;border-radius:12px}
+      .row{flex-direction:column;align-items:flex-start}
+    }
+    @media print{body{background:#fff}.page{max-width:none;margin:0;padding:0}.card{border:none;box-shadow:none;border-radius:0}.contact span{border:none;padding:0;background:transparent}}
+  </style>
 </head>
 <body>
-    <div class="all">
-    <div class="header">
-        <div class="pic">
-            <img src="suitpic.png">
+  <div class="page">
+    <div class="card">
+      <header>
+        <h1>ROEN MICHAEL E. MACULA</h1>
+        <div class="subtitle">Licensed Civil Engineer / BIM Modeler</div>
+        <div class="contact">
+          <span>Manila, Philippines</span>
+          <span>+63 956 880 5831</span>
+          <span>rmemacula@gmail.com</span>
         </div>
-    <div class="name">
-    <h1 id="name">ROEN MICHAEL E. MACULA</h1>
-    <h3 id="position">Licensed Civil Engineer</h3>
-    <h4 id="address">Address: Manila</h4>
-    <h4 id="phone">Phone: +639568805831</h4>
-    <h4 id="email">Email: <u>rmemacula@gmail.com</u></h4>
-</div>
-</div>
-
-<div class="summary">
-SUMMARY
-</div>
-<hr>
-
-<div class="summarytext">
-A determined, versatile, and adept Civil Engineer seeking to utilize my knowledge, skills, and professional experiences in an esteemed company. Excels in collaborative environments and enjoy working with diverse teams to achieve common goals.
-</div>
-
-<div class="experience">EXPERIENCE<hr></div>
-    <div class="experiencetext">
-        <div class="container1">
-        <div class="experiencePosition">Structural Detailer / B.I.M. Modeller</div>
-        <div class="experienceDate">August 2022 - Present</div>
-        </div>
-        <div class="experienceLocation">ArchEn Technologies | Pasig City</div>
-        <div class="experienceDescription">
+      </header>
+      <main>
+        <section>
+          <h2>Professional Experience</h2>
+          <div class="item">
+            <div class="row"><div class="role">Senior Structural BIM Modeler</div><div class="date">January 2026 – Present</div></div>
+            <div class="company">Arcadis</div>
             <ul>
-                <li>Produce complete set of Structural Plans that comply with the building code and standards.</li>
-                <li>Collaborate with other disciplines to coordinate all design components effectively.</li>
-                <li>Assist in preparing responses for site approvals and inquiries.</li>
-                <li>Conduct site visits to make sure that the ongoing construction complies with the specifications of the structural designer.</li>
+              <li>Developed and maintained 3D structural BIM models for new, existing, and refurbishment residential and industrial projects, ensuring accuracy with engineering drawings, project specifications, and North American standards.</li>
+              <li>Reviewed and managed clash detection reports from the BIM coordination team, analyzing structural conflicts and coordinating with structural engineers and other disciplines to resolve design and model integration issues.</li>
+              <li>Implemented structural engineer markups, revisions, and design updates to maintain model accuracy and alignment with project BIM standards.</li>
             </ul>
-        </div>
-    </div>
-
-    <div class="experiencetext">
-        <div class="container1">
-        <div class="experiencePosition">Engineering Intern</div>
-        <div class="experienceDate">2019</div>
-        </div>
-        <div class="experienceLocation">Hilmarc's Construction Corporation | Manila</div>
-        <div class="experienceDescription">
+          </div>
+          <div class="item">
+            <div class="row"><div class="role">Structural Drafter</div><div class="date">May 2025 – January 2026</div></div>
+            <div class="company">Microsourcing – BG&E</div>
             <ul>
-                <li>Oversaw and inspected the UST Hospital project completion.</li>
-                <li>Prepared punch-lists and inspected the actual site to ensure that everything is on schedule.</li>
+              <li>Completed structural markups provided by engineers, such as Reinforcement Plans, Post-Tensioning Plans, and Typical Details, ensuring accuracy and quality.</li>
+              <li>Modified and updated Revit models based on engineering feedback and design changes.</li>
+              <li>Maintained drawing quality and consistency in line with BG&E standards and Australian codes.</li>
             </ul>
-        </div>
+          </div>
+          <div class="item">
+            <div class="row"><div class="role">Structural Detailer / BIM Modeller</div><div class="date">August 2022 – May 2025</div></div>
+            <div class="company">ArchEn Technologies</div>
+            <ul>
+              <li>Produced complete sets of structural plans that comply with building codes and standards using AutoCAD and Revit.</li>
+              <li>Developed 3D models of structural components to identify and resolve conflicts with other disciplines.</li>
+              <li>Assisted in preparing responses for site approvals and inquiries, and conducted site visits to ensure ongoing construction complied with the structural designer's specifications.</li>
+            </ul>
+          </div>
+        </section>
+        <section class="grid">
+          <div class="box">
+            <div class="label">Education</div>
+            <div>Bachelor of Science in Civil Engineering</div>
+            <div class="company">University of Santo Tomas – Manila, Philippines</div>
+            <div class="date">June 2020</div>
+          </div>
+          <div class="box">
+            <div class="label">Additional Information</div>
+            <div><strong>Technical Skills:</strong> Autodesk Revit, AutoCAD, Microsoft Office, Python, Bluebeam REVU, Autodesk Construction Cloud</div>
+            <div style="margin-top:8px"><strong>Certifications:</strong> Registered Civil Engineer (RCE), Basic Occupational Safety and Health (BOSH – SO2), C2 Proficient (EF Set: English Skills), TESDA Technical Drafting NCII, LinkedInLearning: Autodesk Construction Cloud</div>
+          </div>
+        </section>
+      </main>
     </div>
-<div class="education">EDUCATION
-    <hr>
-</div>
-<div class="educationtext">
-    <div class="educationTertiary">
-        <div class="educationcontainer1">
-        <b>Univeristy of Santo Tomas - Manila</b><br>
-        <i>Bachelor of Science in Civil Engineering</i>
-    </div>
-    </div>
-    <div class="educationcontainer2">
-    <div class="educationDate">
-        <i>Espana,Manila</i><br>
-        <i>June 2020</i>
-        </div>
-    </div>
-</div>
-<div class="educationtext">
-    <div class="educationTertiary">
-        <div class="educationcontainer1">
-        <b>Univeristy of Santo Tomas - Manila</b><br>
-        <i>Secondary Education</i>
-    </div>
-    </div>
-    
-    <div class="educationDate">
-        <div class="educationcontainer2"></div>
-        <i>Espana,Manila</i><br>
-        <i>May 2015</i>
-    </div>
-</div>
-
-
-<div class="additionalInfomation">
-    ADDITIONAL INFORMATION
-    <hr>
-</div>
-  <div class="additionalInformationtext">
-    <ul>
-        <li><b>Technical Skills:</b> Autodesk, Revit, AutoCAD, Microsoft Office, Coding</li>
-        <li><b>Certifications</b> Registered Civil Engineer (RCE), Basic Occupational Safety and Health (BOSH - SO2)</li>
-    </ul>
   </div>
-</div>
-
 </body>
 </html>
